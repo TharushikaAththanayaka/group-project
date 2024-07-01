@@ -1,0 +1,125 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .all {
+    display: flex;
+    height: 100%;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color:rgb(245, 189, 52);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    transition: transform 0.3s ease;
+
+  }
+  
+  .sidebar-item img {
+    margin-right: 10px;
+    width: 24px;  /* Adjust the width as needed */
+    height: 24px; /* Adjust the height as needed */
+  }
+  
+  .sidebar-item.active {
+    background-color: rgb(128, 0, 0);
+    border-radius: 10px;
+  }
+  .sidebar-item:hover {
+    transform: scale(1.1); /* Scale up the item slightly on hover */
+  }
+  
+  .dashboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    
+    background-color: #fbeebb;
+    overflow-y: auto;
+    height: 100vh;
+    width: calc(100% - 200px); /* Adjust width to account for sidebar */
+  }
+  
+  .line {
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(251, 216, 129);
+    grid-column: span 2; /* Ensure the line spans the full width */
+  }
+  
+  .dashboard-item {
+    padding: 20px;
+    color: black;
+    text-align: center;
+   font-size: 1.3rem;
+   font-weight: 700;
+    width: 300px;
+    height: 200px;
+    margin-left: 150px;
+  
+    
+  }
+  
+  .light-yellow {
+    background-color:rgb(231, 182, 84) ;
+    
+  }
+  
+  .light-red {
+    background-color:rgb(126, 46, 46);
+    
+    
+  }
+  
+  .dark-red {
+    background-color: rgb(136, 52, 52);
+   
+  }
+  
+  .dark-yellow {
+    background-color: rgb(242, 203, 105);
+   
+  }
+  
+  @media (max-width: 768px) {
+    .all {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+      height: auto;
+      padding-top: 0;
+    }
+  
+    .dashboard {
+      grid-template-columns: 1fr;
+      width: 100%;
+      height: auto;
+    }
+  
+    .line {
+      grid-column: 1; /* Adjust the span for single column layout */
+    }
+  }
