@@ -53,3 +53,22 @@
     display: none;
   }
 }
+
+/* Footer  */
+.Footer {
+  background-color: #f8d171;
+  padding: 20px;
+}
+
+.Footer .content {
+  display: flex;
+  margin: 20px;
+}
+
+.Footer span {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 15px;
+}

@@ -2,11 +2,13 @@
 .homepage-content {
   position: relative;
   display: flex;
+  background-color: rgba(150, 201, 244,0.3)
 }
 .homepage-content img {
   max-width: 100%;
   height: 100vh;
   object-fit: cover;
+  z-index: -1;
 }
 
 .homepage-content .text {

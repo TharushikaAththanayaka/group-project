@@ -1,7 +1,8 @@
 import React from "react";
-import Navbar from "../Navbar";
-import Background from "../../assests/background.png";
+import Navbar from "../components/Navbar";
+import Background from "../assests/background.png";
 import "./Homepage.css"
+import Footer from "../components/Footer";
 
 function Homepage() {
   return (
@@ -18,6 +19,7 @@ function Homepage() {
           <button>User</button>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
