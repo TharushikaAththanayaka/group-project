@@ -2,7 +2,8 @@
 .homepage-content {
   position: relative;
   display: flex;
-  background-color: rgba(150, 201, 244,0.3)
+  background-color: rgba(150, 201, 244,0.3);
+  height:100%;
 }
 .homepage-content img {
   max-width: 100%;

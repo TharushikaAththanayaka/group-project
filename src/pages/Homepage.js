@@ -1,13 +1,12 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import Background from "../assests/background.png";
 import "./Homepage.css"
-import Footer from "../components/Footer";
+
 
 function Homepage() {
   return (
     <div className="Homepage">
-      <Navbar />
+     
       <div className="homepage-content">
         <img src={Background} alt="Background" />
         <div className="text">
@@ -19,7 +18,8 @@ function Homepage() {
           <button>User</button>
         </div>
       </div>
-      <Footer />
+      
+     
     </div>
   );
 }
