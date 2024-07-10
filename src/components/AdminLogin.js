@@ -1,14 +1,14 @@
 import React from 'react'
-import './UserLogin.css'
+import './AdminLogin.css'
 import Button from './Button';
 
-function UserLogin() {
+function AdminLogin() {
   return (
-    <div className='userlogin'>
+    <div className='adminlogin'>
       
       
       
-        <span className='text1'>User Login</span>
+        <span className='text1'>Admin Login</span>
       
         
       
@@ -34,4 +34,4 @@ function UserLogin() {
   );
 }
 
-export default UserLogin;
+export default AdminLogin;

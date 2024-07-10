@@ -4,7 +4,7 @@ import './Button.css'
 function Button() {
   return (
     <div>
-        <span>Sign In</span>
+        <button className='button'>Sign In</button>
     </div>
   )
 }
