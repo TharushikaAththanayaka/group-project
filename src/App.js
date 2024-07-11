@@ -1,11 +1,15 @@
 
 import './App.css';
-import Udashboard from './Udashboard';
+import ADashboard from './Pages/ADashboard';
+import UDashboard from './Pages/UDashboard';
+
 
 function App() {
   return (
     <div className="App">
-      <Udashboard/>
+    
+     <ADashboard/>
+     
     </div>
   );
 }
