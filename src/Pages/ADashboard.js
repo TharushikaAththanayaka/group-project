@@ -1,5 +1,5 @@
 import React from 'react'
-import ASidebar from '../Components/ASidebar'
+import ASidebar from '../components/ASidebar'
 import './ADashboard.css'
 
 export default function ADashboard() {

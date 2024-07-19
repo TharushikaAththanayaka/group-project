@@ -1,11 +1,11 @@
 import React from 'react'
 import './ASidebar.css'
-import user from '../Assests/user.png';
-import home from '../Assests/home.png'
-import query from '../Assests/report.png'
-import history from '../Assests/folder.png'
-import pwd from '../Assests/key.png'
-import manage from '../Assests/user-profile.png'
+import user from '../assests/user.png';
+import home from '../assests/home.png'
+import query from '../assests/report.png'
+import history from '../assests/folder.png'
+import pwd from '../assests/key.png'
+import manage from '../assests/user-profile.png'
 
 export default function ASidebar() {
   return (

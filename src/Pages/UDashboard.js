@@ -1,6 +1,6 @@
 import React from 'react'
 import './UDashboard.css'
-import USidebar from '../Components/USidebar'
+import USidebar from '../components/USidebar'
 
 export default function UDashboard() {
   return (

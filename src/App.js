@@ -1,7 +1,7 @@
 
 import './App.css';
-import ADashboard from './Pages/ADashboard';
-import UDashboard from './Pages/UDashboard';
+import ADashboard from './pages/ADashboard';
+import UDashboard from './pages/UDashboard';
 
 
 function App() {
