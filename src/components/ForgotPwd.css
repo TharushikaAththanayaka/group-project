@@ -7,22 +7,21 @@ body {
     margin: 0;
 }
 
-.userlogin {
+.forgotpwd {
     position: relative;
     display: flex;
     flex-direction: column;
     border: 4px solid #000000;
     border-radius: 50px;
     width: 400px;
-    height: 400px;
+    height: 300px;
     margin-top: 20px;
     background: linear-gradient(to top right, rgba(234, 107, 98, 0.8), rgba(255, 219, 123, 1));
     align-items: center;
 }
 
 
-
-.userlogin .text1 {
+.forgotpwd .text1 {
     display: flex;
     font-size: 25px;
     margin: 20px 0px;
@@ -30,15 +29,13 @@ body {
     font-weight: bold;
 }
 
-.userlogin .text2,
-.userlogin .text3  {
+.forgotpwd .text2 {
     margin-bottom: 10px;
     font-weight: bold;
 }
 
 
-.userlogin .email,
-.userlogin .password {
+.forgotpwd .email {
     border: 2px solid #000000;
     border-radius: 20px;
     width: 300px;
@@ -47,36 +44,12 @@ body {
     background-color: rgba(255, 255, 255, 0.75);
 }
 
-.userlogin .remember {
-    display: flex;
-    margin-bottom: 20px;
-}
 
-.userlogin .text4 {
-    font-weight: bold;
-}
-
-
-.userlogin .remember input {
-    margin-right: 10px;
-}
-
-.userlogin Button {
+.forgotpwd Button {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
-}
-
-.userlogin .text5 {
-    font-weight: bold;
-    display: block;
-    text-align: center;
-    
+    margin-top: 40px;
 }
 
 
-.userlogin .text5:hover {
-    text-decoration: underline;
-    color: blue;
-}
