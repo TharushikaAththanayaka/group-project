@@ -31,7 +31,7 @@ function AdminLogin() {
         </form>
      
     </div>
-  );
+  )
 }
 
-export default AdminLogin;
+export default AdminLogin

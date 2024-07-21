@@ -1,21 +1,19 @@
 import React from 'react'
-import UserLogin from '../components/UserLogin'
-import './UserLoginPage.css'
+import ForgotPwd from '../components/ForgotPwd'
+import './ForgotPwdPage.css'
 
-
-
-function UserLoginPage() {
+function ForgotPwdPage() {
   return (
-    <div className='userloginpage'>
+    <div className='forgotpwdpage'>
       <span className='text'>
         Complaints Management System
       </span>
       <hr/>
       <div className='login'>
-        <UserLogin/>
+        <ForgotPwd/>
       </div>
     </div>
   )
 }
 
-export default UserLoginPage
+export default ForgotPwdPage

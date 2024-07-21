@@ -31,7 +31,7 @@ function UserLogin() {
         </form>
      
     </div>
-  );
+  )
 }
 
-export default UserLogin;
+export default UserLogin
