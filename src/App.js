@@ -1,16 +1,26 @@
 import "./App.css";
-import AdminLoginPage from "./pages/AdminLoginPage.js";
-import ForgotPwdPage from "./pages/ForgotPwdPage.js";
-import NewPwdPage from "./pages/NewPwdPage.js";
-import UserLoginPage from './pages/UserLoginPage';
+import Homepage from "./pages/Homepage";
+import AddComplaint from "./pages/AddComplaint";
+import AboutUs from "./pages/AboutUs.js";
+import ContactUs from "./pages/ContactUs";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar.js";
+import Footer from "./components/Footer.js";
 
 function App() {
   return (
     <div className="App">
-     
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/add-complaint" element={<AddComplaint />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+      </Routes>
+      <Footer />
     </div>
     
-  )
+  );
 }
 
-export default App
+export default App;
