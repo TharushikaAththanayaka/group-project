@@ -18,4 +18,4 @@ function UserLoginPage() {
   )
 }
 
-export default UserLoginPage
+export default UserLoginPage;

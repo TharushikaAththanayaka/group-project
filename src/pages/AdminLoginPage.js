@@ -18,4 +18,4 @@ function AdminLoginPage() {
   )
 }
 
-export default AdminLoginPage
+export default AdminLoginPage;
